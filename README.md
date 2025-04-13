@@ -14,7 +14,7 @@ Kelas utama (main class) yang menjalankan aplikasi.
 - main() → Membuat frame, label skor, dan menambahkan panel FlappyBird.
 ## 2. IntroFrame
 Berfungsi menampilkan intro atau petunjuk sebelum masuk ke game.
-### Atribut
+### Atribut dan Metode:
 - JFrame frame → Frame utama untuk tampilan intro.
 - JPanel panel → Panel utama yang bisa menampilkan background (bisa di-custom untuk gambar atau warna).
 - JButton startButton → Tombol untuk memulai game. Saat ditekan, frame ini akan ditutup dan game akan dijalankan.
