@@ -7,14 +7,14 @@ Program ini mengimplementasikan game Flappy Bird menggunakan Java Swing. Game di
 Terdapat 5 Class:
 ## 1. App
 Kelas utama (main class) yang menjalankan aplikasi.
-### Atribut dan Metode:
+### Atribut dan Metode
 - JFrame frame → Frame utama untuk menampilkan game.
 - JLabel scoreLabel → Label untuk menampilkan skor.
 - FlappyBird flappyBird → Panel utama tempat game berjalan.
 - main() → Membuat frame, label skor, dan menambahkan panel FlappyBird.
 ## 2. IntroFrame
 Berfungsi menampilkan intro atau petunjuk sebelum masuk ke game.
-### Atribut dan Metode:
+### Atribut dan Metode
 - JFrame frame → Frame utama untuk tampilan intro.
 - JPanel panel → Panel utama yang bisa menampilkan background (bisa di-custom untuk gambar atau warna).
 - JButton startButton → Tombol untuk memulai game. Saat ditekan, frame ini akan ditutup dan game akan dijalankan.
